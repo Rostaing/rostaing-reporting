@@ -1,0 +1,5 @@
+numpy==2.3.1
+pandas==2.3.1
+rostaing_report==0.1.2
+streamlit==1.46.1
+streamlit_nightly==1.38.1.dev20240830
