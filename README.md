@@ -4,7 +4,7 @@
 [![Framework](https://img.shields.io/badge/Framework-Streamlit-red.svg)](https://streamlit.io)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Dependencies](https://img.shields.io/badge/Dependencies-Pandas-brightgreen.svg)](https://pandas.pydata.org/)
-[![Dependencies](Rostaing Report)](https://pypi.org/project/rostaing-report/)
+[![Dependencies](https://img.shields.io/badge/Dependencies-Rostaing-report-brightgreen.svg)](https://pypi.org/project/rostaing-report/)
 
 **Rostaing Reporting** is a powerful and intuitive web application built with Python and Streamlit. It automates the tedious process of exploratory data analysis (EDA). Simply upload your data file, and let the application generate detailed reports, visualizations, and statistical tests in just a few clicks.
 
