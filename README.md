@@ -1,93 +1,94 @@
-# 📊 Rostaing Reporting (RR) - Votre Assistant d'Analyse de Données Automatisé
+## 📊 Rostaing Reporting (RR) - Your Automated Data Analysis Assistant
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Framework](https://img.shields.io/badge/Framework-Streamlit-red.svg)](https://streamlit.io)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Dependencies](https://img.shields.io/badge/Dependencies-Pandas-brightgreen.svg)](https://pandas.pydata.org/)
-[![Rostaing Report]](https://pypi.org/project/rostaing-report/)
+[![Dependencies](Rostaing Report)](https://pypi.org/project/rostaing-report/)
 
-**Rostaing Reporting** est une application web puissante et intuitive conçue avec Python et Streamlit. Elle automatise le processus fastidieux de l'analyse exploratoire des données (EDA). Chargez simplement votre fichier de données, et laissez l'application générer des rapports détaillés, des visualisations et des tests statistiques en quelques clics.
+**Rostaing Reporting** is a powerful and intuitive web application built with Python and Streamlit. It automates the tedious process of exploratory data analysis (EDA). Simply upload your data file, and let the application generate detailed reports, visualizations, and statistical tests in just a few clicks.
 
-Fini les notebooks Jupyter répétitifs, place à l'analyse interactive et efficace !
+Say goodbye to repetitive Jupyter notebooks and hello to interactive and efficient analysis!
 
-## 🚀 Fonctionnalités Principales
+## 🚀 Key Features
 
-*   **📤 Chargement de Données Multi-formats :** Importez facilement vos données via des fichiers `.csv`, `.xlsx` (Excel), ou `.json`.
-*   **📈 Analyse Exploratoire Automatisée (EDA) :** Générez un rapport complet qui inclut :
-    *   Vue d'ensemble des données (nombre de variables, observations, valeurs manquantes).
-    *   Analyse détaillée pour chaque variable (distribution, statistiques clés, etc.).
-    *   Analyse des interactions et corrélations entre les variables.
-*   **📊 Interface de Données Interactive :** Visualisez vos données dans un tableau complet ou via un système de pagination pour une meilleure performance sur les grands jeux de données.
-*   **🔬 Tests Statistiques à la Demande :** Réalisez des tests statistiques complexes sans écrire une seule ligne de code :
-    *   **Test du Chi-carré (χ²) :** Pour tester l'indépendance entre deux variables catégorielles.
-    *   **Test de Kolmogorov-Smirnov (K-S) :** Pour comparer la distribution d'une variable à une loi normale.
-    *   **Test de Mann-Whitney U :** Pour comparer les distributions de deux groupes indépendants.
-    *   **Test de Normalité (Shapiro-Wilk) :** Pour vérifier si une variable suit une distribution normale.
-*   **📥 Export Facile :**
-    *   Téléchargez le rapport d'analyse complet au format **HTML**.
-    *   Exportez la vue actuelle du dashboard en **PNG** ou **PDF** pour vos présentations.
-    *   Téléchargez les résultats des tests statistiques au format **CSV**.
-*   **🧹 Interface Propre et Réutilisable :** Un bouton "Nettoyer et recommencer" permet de réinitialiser l'application pour une nouvelle analyse.
+*   **📤 Multi-Format Data Loading:** Easily import your data from `.csv`, `.xlsx` (Excel), or `.json` files.
+*   **📈 Automated Exploratory Data Analysis (EDA):** Generate a comprehensive report that includes:
+    *   Data overview (number of variables, observations, missing values).
+    *   Detailed analysis for each variable (distribution, key statistics, etc.).
+    *   Interaction and correlation analysis between variables.
+*   **📊 Interactive Data Interface:** View your data in a full table or through a paginated system for better performance on large datasets.
+*   **🔬 On-Demand Statistical Tests:** Perform complex statistical tests without writing a single line of code:
+    *   **Chi-squared Test (χ²):** To test the independence between two categorical variables.
+    *   **Kolmogorov-Smirnov Test (K-S):** To compare a variable's distribution to a normal distribution.
+    *   **Mann-Whitney U Test:** To compare the distributions of two independent groups.
+    *   **Normality Test (Shapiro-Wilk):** To check if a variable follows a normal distribution.
+*   **📥 Easy Export:**
+    *   Download the full analysis report in **HTML** format.
+    *   Export the current dashboard view as **PNG** or **PDF** for your presentations.
+    *   Download the statistical test results in **CSV** format.
+*   **🧹 Clean and Reusable Interface:** A "Clear and restart" button allows you to reset the application for a new analysis.
 
-## 🛠️ Technologies Utilisées
+## 🛠️ Technologies Used
 
-*   **Backend & Logique :** Python
-*   **Interface Web :** Streamlit
-*   **Manipulation de Données :** Pandas, Numpy
-*   **Tests Statistiques :** Scipy
-*   **Lecture de Fichiers Excel :** openpyxl
-*   **Génération de Rapport :** rostaing-report
+*   **Backend & Logic:** Python
+*   **Web Interface:** Streamlit
+*   **Data Manipulation:** Pandas, Numpy
+*   **Statistical Tests:** Scipy
+*   **Excel File Reading:** openpyxl
+*   **Report Generation:** rostaing-report
 
-## ⚙️ Installation et Lancement
+## ⚙️ Installation and Launch
 
-Suivez ces étapes pour lancer le projet sur votre machine locale.
+Follow these steps to run the project on your local machine.
 
-### 1. Prérequis
+### 1. Prerequisites
 
 *   [Python 3.8+](https://www.python.org/downloads/)
-*   `pip` (généralement inclus avec Python)
+*   `pip` (usually included with Python)
 *   [Git](https://git-scm.com/downloads)
 
-### 2. Instructions d'Installation
+### 2. Installation Instructions
 
-1.  **Clonez le dépôt :**
+1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/VOTRE_NOM_UTILISATEUR/VOTRE_REPO.git
-    cd VOTRE_REPO
+    git clone https://github.com/Rostaing/rostaing-reporting.git
+    cd rostaing-reporting
     ```
 
-2.  **Créez un environnement virtuel (recommandé) :**
-    *   Sur macOS/Linux :
+2.  **Create a virtual environment (recommended):**
+    *   On macOS/Linux:
         ```bash
         python3 -m venv venv
         source venv/bin/activate
         ```
-    *   Sur Windows :
+    *   On Windows:
         ```bash
         python -m venv venv
         .\venv\Scripts\activate
         ```
 
-3.  **Installez les dépendances :**
-    Créez un fichier `requirements.txt` à la racine de votre projet avec le contenu suivant, puis lancez la commande.
+3.  **Install the dependencies:**
+    Create a `requirements.txt` file in the root of your project with the following content, then run the command.
 
     **`requirements.txt`**
-    ```bash
-    numpy==2.3.1
-    pandas==2.3.1
-    rostaing_report==0.1.2
-    streamlit==1.46.1
-    streamlit_nightly==1.38.1.dev20240830
+    ```
+    numpy>=1.23.1
+    pandas>=2.0.1
+    rostaing_report>=0.1.2
+    streamlit>=1.36.0
+    openpyxl>=3.1.2
+    scipy>=1.11.2
     ```
 
-    **Commande d'installation :**
+    **Installation command:**
     ```bash
     pip install -r requirements.txt
     ```
 
-### 3. Lancement de l'application
+### 3. Launching the application
 
-Une fois les dépendances installées, lancez l'application avec la commande suivante (en supposant que votre fichier principal s'appelle `app.py`) :
+Once the dependencies are installed, launch the application with the following command (assuming your main file is named `app.py`):
 
 ```bash
 streamlit run app.py
